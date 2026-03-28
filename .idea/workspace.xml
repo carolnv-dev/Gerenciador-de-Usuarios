@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b476e96-baa0-400e-a208-04a1be52bf60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/teste.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +70,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\novas\PycharmProjects\PyCharmOtherProjects" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\novas\PycharmProjects\PyCharmOtherProjects\main2" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.31033.139" />
         <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
       </set>
     </attachedChunks>
@@ -98,7 +102,12 @@
       <workItem from="1774123628107" duration="1632000" />
       <workItem from="1774132318626" duration="7229000" />
       <workItem from="1774200853727" duration="44000" />
-      <workItem from="1774206895685" duration="1650000" />
+      <workItem from="1774206895685" duration="2382000" />
+      <workItem from="1774222191380" duration="2795000" />
+      <workItem from="1774297846029" duration="12000" />
+      <workItem from="1774483074835" duration="1042000" />
+      <workItem from="1774484581555" duration="174000" />
+      <workItem from="1774562240697" duration="49000" />
     </task>
     <servers />
   </component>
@@ -107,7 +116,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Welcome$teste3.coverage" NAME="teste3 Coverage Results" MODIFIED="1774122051542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Welcome$main.coverage" NAME="main Coverage Results" MODIFIED="1774137839351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Welcome$main.coverage" NAME="main Coverage Results" MODIFIED="1774484684508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Welcome$teste4.coverage" NAME="teste4 Coverage Results" MODIFIED="1774135776126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Welcome$teste.coverage" NAME="teste Coverage Results" MODIFIED="1774115472303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Welcome$teste2.coverage" NAME="teste2 Coverage Results" MODIFIED="1774124975285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -7,12 +7,17 @@ while programa == 0:
 
     if comando == 'ADD':
         nome = input('Nome: ')
-        idade = int(input('Idade: '))
+        try:
+            idade = int(input('Idade: '))
+        except ValueError:
+            print('Digite uma idade válida')
+            continue
         cpf = input('CPF: ')
 
-        if len(cpf) < 14:
-            print('CPF inválido! Tente novamente.')
+        if len(cpf) != 14:
+            print('Número de caracteres do CPF inválido! Tente novamente.')
         else:
+
             usuario = {
                 'nome': nome,
                 'idade': idade,
@@ -21,25 +26,33 @@ while programa == 0:
             usuarios.append(usuario)
 
     elif comando == 'END':
+        if len(usuarios) == 0:
+            print('Você não registrou nenhum usuário!')
+            break
 
-        soma_idades = 0
         usuarios_nomes = ''
+        lista_idades = []
         for u in usuarios:
-
-            # soma todas as idades:
-            soma_idades += u['idade']
-
-            # concatena todos os nomes:
             usuarios_nomes += u['nome']
+            lista_idades.append(u['idade'])
 
-        # mostra a média das idades na tela
-        print(f'A média das idades é: {soma_idades / len(usuarios)}')
+        media_idades = sum(lista_idades) / len(usuarios)
+        print(f'A média das idades é {media_idades:.2f}')
 
-        # mostra a incidência das 3 letras que mais aparecem na tela
-        contagem_letras = Counter(usuarios_nomes.upper())
-        print(f'As letras com maior incidência foram: {contagem_letras.most_common(3)}')
+        cont_letras = Counter(usuarios_nomes.upper().replace(' ', ''))
+        print(f'As letras com maior incidência foram: {cont_letras.most_common(3)}')
 
-        # finaliza o loop
+        indice_maior_idade = lista_idades.index(max(lista_idades))
+        indice_menor_idade = lista_idades.index(min(lista_idades))
+
+        print(f'O usuário mais velho é {usuarios[indice_maior_idade]['nome']} '
+              f'com {usuarios[indice_maior_idade]['idade']} anos de idade '
+              f'e CPF {usuarios[indice_maior_idade]['cpf']}')
+
+        print(f'O usuário mais novo é {usuarios[indice_menor_idade]['nome']} '
+              f'com {usuarios[indice_menor_idade]['idade']} anos de idade '
+              f'e CPF {usuarios[indice_menor_idade]['cpf']}')
         programa = 1
+
     else:
         print('Comando inválido! Tente novamente.')
