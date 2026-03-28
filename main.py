@@ -1,8 +1,7 @@
 from collections import Counter
 
 usuarios = []
-programa = 0
-while programa == 0:
+while True:
     comando = input('Digite ADD para adicionar um usuário e END para finalizar o programa: ').upper()
 
     if comando == 'ADD':
@@ -52,7 +51,7 @@ while programa == 0:
         print(f'O usuário mais novo é {usuarios[indice_menor_idade]['nome']} '
               f'com {usuarios[indice_menor_idade]['idade']} anos de idade '
               f'e CPF {usuarios[indice_menor_idade]['cpf']}')
-        programa = 1
+        break
 
     else:
         print('Comando inválido! Tente novamente.')
